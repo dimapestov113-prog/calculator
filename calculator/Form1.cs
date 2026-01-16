@@ -118,7 +118,10 @@ namespace calculator
 
         private void buttondellete_Click(object sender, EventArgs e)
         {
-            int lenght = textBox1.Text.Length - 1;
+            int l = textBox1.Text.Length - 1;
+            textBox1.Text = textBox1.Text.Remove(l);
+
+            //ыврмгывгам
         }
 
         private void buttondelit_Click(object sender, EventArgs e)
